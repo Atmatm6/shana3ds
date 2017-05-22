@@ -31,7 +31,7 @@ int main(int argc, char **argv) {
                  dead for now
                     NEWS_AddNotification((u16) atoi(title),(u32) sizeof(title),(u16) atoi(message),
                             (u32) sizeof(message), MagickImage, sizeof(MagickImage),false);*/
-                }
+                //}
 
 		// Flush and swap framebuffers
 		gfxFlushBuffers();
