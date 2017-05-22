@@ -1,0 +1,5 @@
+main.c
+arm-none-eabi-gcc -MMD -MP -MF /home/atmatm6/wiiudev/shana3ds/build/main.d -g -Wall -O2 -mword-relocations -fomit-frame-pointer -ffunction-sections -march=armv6k -mtune=mpcore -mfloat-abi=hard -mtp=soft -I/home/atmatm6/wiiudev/shana3ds/include -I/home/atmatm6/devkitPro/libctru/include -I/home/atmatm6/wiiudev/shana3ds/build -DARM11 -D_3DS -c /home/atmatm6/wiiudev/shana3ds/source/main.c -o main.o 
+linking shana3ds.elf
+built ... shana3ds.smdh
+built ... shana3ds.3dsx

@@ -66,7 +66,8 @@ main.o: /home/atmatm6/wiiudev/shana3ds/source/main.c \
  /home/atmatm6/devkitPro/libctru/include/3ds/applets/swkbd.h \
  /home/atmatm6/devkitPro/libctru/include/3ds/sdmc.h \
  /home/atmatm6/devkitPro/libctru/include/3ds/romfs.h \
- /home/atmatm6/devkitPro/libctru/include/3ds/font.h
+ /home/atmatm6/devkitPro/libctru/include/3ds/font.h \
+ /home/atmatm6/wiiudev/shana3ds/source/shana.h
 
 /home/atmatm6/devkitPro/libctru/include/3ds.h:
 
@@ -203,3 +204,5 @@ main.o: /home/atmatm6/wiiudev/shana3ds/source/main.c \
 /home/atmatm6/devkitPro/libctru/include/3ds/romfs.h:
 
 /home/atmatm6/devkitPro/libctru/include/3ds/font.h:
+
+/home/atmatm6/wiiudev/shana3ds/source/shana.h:
