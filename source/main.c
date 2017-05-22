@@ -7,7 +7,6 @@ int main(int argc, char **argv) {
 	consoleInit(GFX_TOP, NULL);
         SwkbdState swkbd;
 	printf("Press A to start the keyboard.\n");
-        printf("Press B to send a notification to the home menu.");
         printf("Press START to go back to the loader.\n");
         newsInit();
         char woah[30];
