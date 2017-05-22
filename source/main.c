@@ -26,13 +26,12 @@ int main(int argc, char **argv) {
                     if (sb == SWKBD_BUTTON_CONFIRM) printf(woah, '\n');
                     else if(sb == SWKBD_BUTTON_LEFT) printf("Canceled\n");
                     else printf("I'm not sure what happened.\n");
-                } else if (kDown & KEY_B){
-                    char title[10] = "Shana3DS";
-                    char message[255] = "Hello there. I'm Omochao and I'll be your guide.";
-                
-                    NEWS_AddNotification
-                    ((u16) atoi(title),(u32) sizeof(title),(u16) atoi(message),
-                            (u32) sizeof(message), MagickImage, sizeof(MagickImage),false);
+                }/* else if (kDown & KEY_B){
+                    char title[10] = "Shana3DS"; 
+                    char message[255] = "Hello there. I'm Omochao and I'll be your guide."; 
+                 dead for now
+                    NEWS_AddNotification((u16) atoi(title),(u32) sizeof(title),(u16) atoi(message),
+                            (u32) sizeof(message), MagickImage, sizeof(MagickImage),false);*/
                 }
 
 		// Flush and swap framebuffers
