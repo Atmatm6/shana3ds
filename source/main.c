@@ -2,7 +2,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <3ds.h>
-//#include "shana.h"
 int main(int argc, char **argv) {
 	gfxInitDefault();
 	consoleInit(GFX_TOP, NULL);
