@@ -1,10 +1,10 @@
 BasicInfo:
   Title                   : Shana3DS
-  ProductCode             : FCK-U-4EVR
+  ProductCode             : HERECOMEDATBOI
   Logo                    : Homebrew
 
 TitleInfo:
-  Category                : 
+  Category                : Application
   UniqueId                : 0x387
 
 Option:
